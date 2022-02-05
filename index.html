@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,23 @@
     <link rel="stylesheet" href="style.css">
     <title>Comparar Textos</title>
 </head>
-<body>
-    <h1>Comparar Textos</h1>
-    <div class="comparar">
-        <label for="">Insira o texto base aqui</label>
-        <textarea name="" id="textoBase" cols="30" rows="10"></textarea>
-    
-        <label for="">Segundo texto secundário aqui</label>
-        <textarea name="" id="textoSecundario" cols="30" rows="10"></textarea>
 
-        <button onclick="compararButton(textoBase.value, textoSecundario.value)">Comparar Textos</button>
-        <script src="scripts.js"></script>
+<body>
+    <div class="compara-text">
+        <h1>Comparar Textos</h1>
+        <div class="comparar">
+            <label for="">Insira o texto base aqui:</label>
+            <textarea name="" id="textoBase" cols="30" rows="10"></textarea>
+
+            <label for="">Insira o texto secundário aqui:</label>
+            <textarea name="" id="textoSecundario" cols="30" rows="10"></textarea>
+
+            
+            <button onclick="compararButton(textoBase.value, textoSecundario.value)"><span>Comparar Textos</span></button>
+        </div>
     </div>
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>

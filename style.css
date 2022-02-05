@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto:wght@500&display=swap');
+
 *{
     height: auto;
+    font-family: 'Montserrat';
+}
+
+.comparar{
+    display: flex;
+    flex-direction: column;
+}
+
+.compara-text{
+    color: #778899;
+    padding: 5%;
+}
+
+.compara-text label {
+    padding: 1%;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.compara-text textarea {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.compara-text button {
+    width: 20%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 40%;
+    background: #2e8b57;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.compara-text button span :hover {
+    color: #2d3946;
+    cursor: pointer;
 }
